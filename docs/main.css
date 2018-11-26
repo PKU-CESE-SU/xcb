@@ -1,8 +1,14 @@
-.block-129 {
+@font-face {
+    font-family: "font-2018-129";
+    src: url("/xcb/images/font-2018-129.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.block-2018-129 {
     clear: both;
     margin: 1em auto;
     padding: 0;
-    width: fit-content;
     width: 1026px;
     border-color: #8BFF33;
     border-style: dashed;
@@ -11,56 +17,56 @@
     background: linear-gradient(135deg, #C5FF99 10%, rgba(255, 255, 255, 0.5) 90%);
 }
 
-.block-129:before {
+.block-2018-129:before {
     display: block;
     text-align: center;
     font-size: 1.5em;
-    font-family: var(--font-family-sans-serif);
+    font-family: "font-2018-129";
 }
 
-.block-129:after {
+.block-2018-129:after {
     clear: both;
     display: block;
     content: '';
 }
 
-.block-129-intro:before {
+.block-2018-129-intro:before {
     content: "基本介绍";
 }
 
-.block-129-wechat:before {
+.block-2018-129-wechat:before {
     content: "微信推送";
 }
 
-.block-129-video:before {
+.block-2018-129-video:before {
     content: "精彩视频";
 }
 
-.block-129-intro > dt {
+.block-2018-129-intro > dt {
     margin: 1em auto;
     max-width: 800px;
     text-align: center;
 }
 
-.imageHeader-129 {
+.imageHeader-2018-129 {
     display: block;
     margin: 10px auto 0 auto;
     width: 200px;
     height: 200px;
 }
 
-.imageList-129 {
+.imageList-2018-129 {
     list-style: none;
 }
 
-.imageList-129 > li {
+.imageList-2018-129 > li {
     float: left;
     display: block;
     margin: 0;
     padding: 10px;
 }
 
-.imageList-129 > li > a {
+.imageList-2018-129 > li > a {
     position: relative;
     display: block;
     overflow: hidden;
@@ -70,11 +76,11 @@
     background: linear-gradient(135deg, #5db293 30%, #ad0000 70%);
 }
 
-.imageList-129 > li > a > * {
+.imageList-2018-129 > li > a > * {
     transition: 0.1s ease-in;
 }
 
-.imageList-129 > li > a > .imageList-129-intro {
+.imageList-2018-129 > li > a > .imageList-2018-129-intro {
     position: absolute;
     bottom: -60px;
     left: 0;
@@ -88,11 +94,11 @@
     line-height: 30px;
 }
 
-.imageList-129 > li > a:hover > .imageList-129-intro {
+.imageList-2018-129 > li > a:hover > .imageList-2018-129-intro {
     bottom: 0px;
 }
 
-.imageList-129 > li > a > img {
+.imageList-2018-129 > li > a > img {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -101,7 +107,7 @@
     height: 200px;
 }
 
-.imageList-129 > li > a:hover > img {
+.imageList-2018-129 > li > a:hover > img {
     top: -70px;
     left: -65px;
     width: 450px;
@@ -109,13 +115,13 @@
 }
 
 @media screen and (max-width: 1025px) {
-    .block-129 {
+    .block-2018-129 {
         width: 686px;
     }
 }
 
 @media screen and (max-width: 685px) {
-    .block-129 {
+    .block-2018-129 {
         width: 346px;
     }
 }
