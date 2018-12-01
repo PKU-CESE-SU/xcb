@@ -124,4 +124,13 @@
     .block-2018-129 {
         width: 346px;
     }
+
+    .imageHeader-2018-129 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .imageList-2018-129 > li > a > .imageList-2018-129-intro {
+        bottom: 0px;
+    }
 }
