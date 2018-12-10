@@ -74,6 +74,7 @@
     width: 320px;
     height: 220px;
     background: linear-gradient(135deg, #5db293 30%, #ad0000 70%);
+    border-radius: 20px 0 20px 0;
 }
 
 .imageList-2018-129 > li > a > * {
