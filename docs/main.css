@@ -1,8 +1,8 @@
 @font-face {
+    font-weight: normal;
+    font-style: normal;
     font-family: "font-2018-129";
     src: url("/xcb/images/font-2018-129.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
 }
 
 .block-2018-129 {
@@ -73,8 +73,8 @@
     box-sizing: border-box;
     width: 320px;
     height: 220px;
-    background: linear-gradient(135deg, #5db293 30%, #ad0000 70%);
     border-radius: 20px 0 20px 0;
+    background: linear-gradient(135deg, #5db293 30%, #ad0000 70%);
 }
 
 .imageList-2018-129 > li > a > * {
@@ -106,6 +106,7 @@
     display: block;
     width: 300px;
     height: 200px;
+    border-radius: 10px 0 10px 0;
 }
 
 .imageList-2018-129 > li > a:hover > img {
